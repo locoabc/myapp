@@ -15,7 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install dia tool
-        run: sudo apt-get update && sudo apt-get install dia
+        run: |
+	  sudo apt-get update
+	  sudo apt-get install dia
 	
   rustfmt:
     name: 1/2: Check Style
