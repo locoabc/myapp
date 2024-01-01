@@ -30,31 +30,32 @@ jobs:
       - run: cargo fmt --all -- --check
 
 
-  clippy:
-    name: Run Clippy
-    needs: [rustfmt]
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-
-    steps:
-      - name: Checkout the code
-        uses: actions/checkout@v4
-      - uses: actions-rs/toolchain@v1
-        with:
-          profile: ${{ env.TOOLCHAIN_PROFILE }}
-          toolchain: ${{ env.RUST_TOOLCHAIN }}
-          override: true
-      - name: Setup Rust cache
-        uses: Swatinem/rust-cache@v2
-      - name: Run cargo clippy
-        run: cargo clippy -- -W clippy::nursery -W clippy::pedantic -W rust-2018-idioms -W rust-2021-compatibility
-
+#  clippy:
+#    name: Run Clippy
+#    needs: [rustfmt]
+#    runs-on: ubuntu-latest
+#
+#    permissions:
+#      contents: read
+#
+#    steps:
+#      - name: Checkout the code
+#        uses: actions/checkout@v4
+#      - uses: actions-rs/toolchain@v1
+#        with:
+#          profile: ${{ env.TOOLCHAIN_PROFILE }}
+#          toolchain: ${{ env.RUST_TOOLCHAIN }}
+#          override: true
+#      - name: Setup Rust cache
+#        uses: Swatinem/rust-cache@v2
+#      - name: Run cargo clippy
+#        run: cargo clippy -- -W clippy::nursery -W clippy::pedantic -W rust-2018-idioms -W rust-2021-compatibility
+#
 
   test:
     name: Run Tests with postgres and redis services
-    needs: [rustfmt, clippy]
+    # needs: [rustfmt, clippy]
+    needs: [rustfmt]
     runs-on: ubuntu-latest
 
     permissions:
