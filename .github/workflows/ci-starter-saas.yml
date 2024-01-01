@@ -3,7 +3,7 @@ name: Action for myapp starters/saas
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - starters/saas/**
   pull_request:
