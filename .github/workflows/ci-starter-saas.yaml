@@ -16,10 +16,10 @@ jobs:
      steps:
        - name: Check out repository code
          uses: actions/checkout@v4
-      - name: Install jq tool
-         run: |
-           sudo apt-get update && 
-           sudo apt-get install dia
+       - name: Install jq tool
+          run: |
+            sudo apt-get update && 
+            sudo apt-get install dia
 
    rustfmt:
      name: 1/2 Check Style
