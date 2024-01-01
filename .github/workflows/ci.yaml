@@ -1,9 +1,9 @@
-name: CI
+name: CI checks for myapp
+
 on:
   push:
     branches:
       - master
-      - main
   pull_request:
 
 env:
@@ -35,6 +35,7 @@ jobs:
 
   clippy:
     name: Run Clippy
+    needs: [rustfmt, clippy]
     runs-on: ubuntu-latest
 
     permissions:
@@ -58,34 +59,11 @@ jobs:
 
   test:
     name: Run Tests
+    needs: [rustfmt, clippy]
     runs-on: ubuntu-latest
 
     permissions:
       contents: read
-    
-    services:
-      redis:
-        image: redis
-        options: >-
-          --health-cmd "redis-cli ping"
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-        ports:
-          - "6379:6379"
-      postgres:
-        image: postgres
-        env:
-          POSTGRES_DB: postgress_test
-          POSTGRES_USER: postgress
-          POSTGRES_PASSWORD: postgress
-        ports:
-          - "5432:5432"
-        # Set health checks to wait until postgres has started
-        options: --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
 
     steps:
       - name: Checkout the code
@@ -102,7 +80,3 @@ jobs:
         with:
           command: test
           args: --all-features --all
-        env:
-          REDIS_URL: redis://localhost:${{job.services.redis.ports[6379]}}
-          DATABASE_URL: postgres://postgress:postgress@localhost:5432/postgress_test
-          
