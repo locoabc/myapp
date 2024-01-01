@@ -1,4 +1,4 @@
-name: CI checks for myapp
+name: CI
 
 on:
   push:
