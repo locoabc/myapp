@@ -21,7 +21,7 @@ jobs:
            sudo apt-get update
            sudo apt-get install dia
    rustfmt:
-     name: 1/2: Check Style
+     name: 1/2 Check Style
      runs-on: ubuntu-latest
      
      permissions:
@@ -39,7 +39,7 @@ jobs:
        - run: cargo fmt --all -- --check
 
   test:
-    name: 2/2: cargo test with running postgres and redis services
+    name: 2/2 cargo test with running postgres and redis services
     # needs: [rustfmt, clippy]
     needs: [rustfmt]
     runs-on: ubuntu-latest
