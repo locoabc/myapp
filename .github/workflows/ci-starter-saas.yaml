@@ -20,27 +20,28 @@ jobs:
          run: |
            sudo apt-get update
            sudo apt-get install dia
-  rustfmt:
-    name: 1/2 Check Style
-    runs-on: ubuntu-latest
-    
-    permissions:
-      contents: read
-    
-    steps:
-      - name: Checkout the code
-        uses: actions/checkout@v4
-      - uses: actions-rs/toolchain@v1
+
+   rustfmt:
+     name: 1/2 Check Style
+     runs-on: ubuntu-latest
+     
+     permissions:
+       contents: read
+     
+     steps:
+       - name: Checkout the code
+         uses: actions/checkout@v4
+       - uses: actions-rs/toolchain@v1
+         with:
+           profile: ${{ env.TOOLCHAIN_PROFILE }}
+           toolchain: ${{ env.RUST_TOOLCHAIN }}
+           override: true
+           components: rustfmt
+      - name: Run cargo fmt
+        uses: actions-rs/cargo@v1
         with:
-          profile: ${{ env.TOOLCHAIN_PROFILE }}
-          toolchain: ${{ env.RUST_TOOLCHAIN }}
-          override: true
-          components: rustfmt
-     - name: Run cargo fmt
-       uses: actions-rs/cargo@v1
-       with:
-         command: fmt
-         args: --all -- --check
+          command: fmt
+          args: --all -- --check
   test:
     name: 2/2 cargo test with running postgres and redis services
     # needs: [rustfmt, clippy]
