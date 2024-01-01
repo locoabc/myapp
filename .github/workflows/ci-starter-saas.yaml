@@ -30,9 +30,7 @@ jobs:
      
      steps:
        - name: Install dia diagram tool
-          run: |
-            sudo apt-get update
-            sudo apt-get install dia
+          run: sudo apt-get update && sudo apt-get install dia
        - name: Checkout the code
          uses: actions/checkout@v4
        - uses: actions-rs/toolchain@v1
