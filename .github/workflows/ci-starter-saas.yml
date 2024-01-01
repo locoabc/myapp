@@ -77,9 +77,9 @@ jobs:
       postgres:
         image: postgres
         env:
-          POSTGRES_DB: postgress_test
-          POSTGRES_USER: postgress
-          POSTGRES_PASSWORD: postgress
+          POSTGRES_DB: myapp_development
+          POSTGRES_USER: loco
+          POSTGRES_PASSWORD: loco
         ports:
           - "5432:5432"
         # Set health checks to wait until postgres has started
