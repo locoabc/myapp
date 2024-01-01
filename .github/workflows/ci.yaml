@@ -3,7 +3,7 @@ name: CI checks for myapp
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 env:
