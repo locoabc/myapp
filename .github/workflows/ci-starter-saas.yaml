@@ -14,12 +14,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v4
       - name: Install dia tool
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y dia
+        run: sudo apt-get update -y && sudo apt-get install -y dia
+	
   rustfmt:
     name: 1/2: Check Style
     runs-on: ubuntu-latest
