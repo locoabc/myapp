@@ -26,9 +26,9 @@ jobs:
      
      steps:
        - name: update OS repo index
-          run: sudo apt-get update 
+          run: apt-get update 
        - name: Install dia tool
-          run: sudo apt-get install dia
+          run: apt-get install dia
        - name: Checkout the code
          uses: actions/checkout@v4
        - uses: actions-rs/toolchain@v1
