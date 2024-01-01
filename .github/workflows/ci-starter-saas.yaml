@@ -1,4 +1,4 @@
-name: Action for myapp starters/saas
+name: myapp with saas-pg-redis
 
 on:
   push:
@@ -11,8 +11,17 @@ env:
   TOOLCHAIN_PROFILE: minimal
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Install dia tool
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y dia
   rustfmt:
-    name: Check Style
+    name: 1/2: Check Style
     runs-on: ubuntu-latest
 
     permissions:
@@ -30,37 +39,13 @@ jobs:
       - run: cargo fmt --all -- --check
 
 
-#  clippy:
-#    name: Run Clippy
-#    needs: [rustfmt]
-#    runs-on: ubuntu-latest
-#
-#    permissions:
-#      contents: read
-#
-#    steps:
-#      - name: Checkout the code
-#        uses: actions/checkout@v4
-#      - uses: actions-rs/toolchain@v1
-#        with:
-#          profile: ${{ env.TOOLCHAIN_PROFILE }}
-#          toolchain: ${{ env.RUST_TOOLCHAIN }}
-#          override: true
-#      - name: Setup Rust cache
-#        uses: Swatinem/rust-cache@v2
-#      - name: Run cargo clippy
-#        run: cargo clippy -- -W clippy::nursery -W clippy::pedantic -W rust-2018-idioms -W rust-2021-compatibility
-#
-
   test:
-    name: Run Tests with postgres and redis services
+    name: 2/2: cargo test with running postgres and redis services
     # needs: [rustfmt, clippy]
     needs: [rustfmt]
     runs-on: ubuntu-latest
-
     permissions:
       contents: read
-
     services:
       redis:
         image: redis
