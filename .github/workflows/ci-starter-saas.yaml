@@ -36,7 +36,11 @@ jobs:
            toolchain: ${{ env.RUST_TOOLCHAIN }}
            override: true
            components: rustfmt
-         run: cargo fmt --all -- --check
+      - name: Run cargo fmt
+        uses: actions-rs/cargo@v1
+        with:
+          command: fmt
+          args: --all -- --check
   test:
     name: 2/2 cargo test with running postgres and redis services
     # needs: [rustfmt, clippy]
