@@ -19,7 +19,7 @@ jobs:
       - name: Install jq tool
         run: |
           sudo apt-get update
-	  sudo apt-get install dia
+          sudo apt-get install dia
 	
   rustfmt:
     name: 1/2: Check Style
