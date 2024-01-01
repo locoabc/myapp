@@ -1,10 +1,11 @@
 # Welcome to Loco :train:
 
+
 Loco is a web and API framework running on Rust.
 
 This is the **SaaS starter** which includes a `User` model and authentication based on JWT.
 
-This repo is for (Getting Started)(https://github.com/loco-rs/loco/blob/master/docs-site/content/docs/getting-started/guide.md)
+This source repo is for (Getting Started)(https://github.com/loco-rs/loco/blob/master/docs-site/content/docs/getting-started/guide.md)
 
 ## Quick Start
 
