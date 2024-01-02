@@ -40,10 +40,7 @@ jobs:
       - run: |
           pwd && ls ${{ github.workspace }}
       - run: |
-          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg)
-      - run: |
-          git status
-	  
+          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg && git status)
 
   rustfmt:
     name: 3/4 rust format
