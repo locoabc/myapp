@@ -42,8 +42,8 @@ jobs:
       - run: |
           (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg)
       - name: Run git status	  
-      - run: |	  
-	  && git status
+        run: |	  
+	  git status
 	  
 
   rustfmt:
