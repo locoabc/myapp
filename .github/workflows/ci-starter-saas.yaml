@@ -11,12 +11,6 @@ env:
   TOOLCHAIN_PROFILE: minimal
 
 jobs:
-#   build:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Install dia tool
-#          run: sudo apt-get update && sudo apt-get install dia
-
    rustfmt:
      name: Check Style
      runs-on: ubuntu-latest
