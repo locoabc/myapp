@@ -80,7 +80,7 @@ jobs:
           args: --all-features --all
 
   release:
-    name: 3/3 cargo test 
+    name: 3/3 cargo release
     needs: [rustfmt]
     runs-on: ubuntu-latest
     permissions:
