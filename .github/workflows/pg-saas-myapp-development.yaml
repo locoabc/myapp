@@ -1,3 +1,4 @@
+# References: https://docs.github.com/en/actions/quickstart
 name: CI
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
