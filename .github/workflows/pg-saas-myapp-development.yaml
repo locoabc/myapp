@@ -37,11 +37,14 @@ jobs:
           sudo apt-get update && sudo apt-get install -y dia
       - name: Check out repository code
         uses: actions/checkout@v4
-      - run: pwd
       - run: |
-          ls ${{ github.workspace }} && git status
+          pwd && ls ${{ github.workspace }}
       - run: |
           (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg)
+      - name: Run git status	  
+      - run: |	  
+	  && git status
+	  
 
   rustfmt:
     name: 3/4 rust format
