@@ -37,7 +37,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - run: |
-          pwd && ls ${{ github.workspace }}
+          pwd && ls ${{ github.workspace }}/docs
       - run: |
           (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg )
       - run: |
