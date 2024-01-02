@@ -34,7 +34,7 @@ jobs:
           args: --all -- --check
   test:
     name: Run Tests
-    needs: [rustfmt, clippy]
+    needs: [rustfmt]
     runs-on: ubuntu-latest
 
     permissions:
