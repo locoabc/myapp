@@ -781,14 +781,14 @@ HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en
         <dia:point val="9.325,6.07565"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="9.325,5.41634;31.1718,80.6468"/>
+        <dia:rectangle val="9.325,5.41634;37.2293,80.6468"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#$ LOCO_APP_NAME=myapp LOCO_TEMPLATE=saas  loco new -p /tmp
 $ cd /tmp/myapp/.devcontainer &amp;&amp; docker-compose up -d
-$ cd /tmp/myapp/ &amp;&amp; cargo test &amp;&amp; cargo installl --path . &amp;&amp; myapp-cli start
+$ cd /tmp/myapp/ &amp;&amp; cargo test &amp;&amp; cargo installl --path . &amp;&amp; myapp-cli start  --server-and-worker
 $ cd /tmp/myapp/; tree -L 3 myapp
 myapp
 ├── Cargo.lock
