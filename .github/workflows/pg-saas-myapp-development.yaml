@@ -21,7 +21,6 @@ jobs:
     steps:
       - name: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      -  run: echo "🔎 name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Checkout the code
         uses: actions/checkout@v4
       - uses: actions-rs/toolchain@v1
