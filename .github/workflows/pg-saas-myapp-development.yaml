@@ -36,8 +36,8 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y dia
       - run: pwd
-      - run: (docs/format-conversion.sh ./myappp-saas-pg.dia)
-      - run: (ls -lrt docs)
+      - run: (cd /home/runner/work/myapp/myapp; ./format-conversion.sh ./myappp-saas-pg)
+      - run: (ls -lrt /home/runner/work/myapp/myapp/docs)
   rustfmt:
     name: 3/4 rust format
     needs: [install-apps]
