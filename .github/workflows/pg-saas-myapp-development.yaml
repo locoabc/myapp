@@ -48,8 +48,9 @@ jobs:
       - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
         # Only run on main branch push (e.g. after pull request merge).
         if: github.event_name == 'push'
+#          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"	
         run: |
-          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+          git config --global user.name "${{ github.actor }}"
           git config --global user.email "tjyang2001@gmail.com"
           git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
