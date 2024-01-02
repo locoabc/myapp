@@ -28,14 +28,15 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
   install-apps:
-    name: 2/4 GitHub Actions
+    name: 2/4 Dia format conversion 
     needs: [Explore-GitHub-Actions]    
     runs-on: ubuntu-latest
     steps:
       - name: install dia diagramming tool
         run: |
           sudo apt-get update && sudo apt-get install -y dia
-      - run: dia -v
+      - run: (cd docs;./format-conversion.sh ./myappp-saas-pg.dia)
+      - run: (cd docs; ls -lrt )
   rustfmt:
     name: 3/4 rust format
     needs: [install-apps]
