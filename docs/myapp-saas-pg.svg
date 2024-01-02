@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="59cm" height="83cm" viewBox="156 40 1178 1646" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="59cm" height="83cm" viewBox="156 40 1171 1646" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="699.912" y1="1184.24" x2="482.547" y2="1057.3"/>
     <polygon style="fill: #000000" points="476.071,1053.52 487.228,1054.24 482.547,1057.3 482.185,1062.88 "/>
@@ -302,7 +302,7 @@
     </text>
   </g>
   <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="369" y="61.8">
-    <tspan x="369" y="61.8">WHAT: MVC dataflow diagram  for loco saas app with postgresql DB and redis servers</tspan>
+    <tspan x="369" y="61.8">WHAT: MVC dataflow diagram for loco saas app with postgresql DB and redis servers</tspan>
     <tspan x="369" y="90.0222"></tspan>
     <tspan x="369" y="118.244"></tspan>
   </text>
