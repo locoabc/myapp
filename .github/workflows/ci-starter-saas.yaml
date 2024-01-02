@@ -32,11 +32,6 @@ jobs:
         with:
           command: fmt
           args: --all -- --check
-      - name: update OS repo index
-         run: apt-get update 
-      - name: Install dia tool
-         run: apt-get install dia
-	  
   test:
     name: cargo test with running postgres and redis services
     # needs: [rustfmt, clippy]
