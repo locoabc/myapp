@@ -25,10 +25,6 @@ jobs:
        contents: read
      
      steps:
-       - name: update OS repo index
-          run: apt-get update 
-       - name: Install dia tool
-          run: apt-get install dia
        - name: Checkout the code
          uses: actions/checkout@v4
        - uses: actions-rs/toolchain@v1
@@ -42,6 +38,11 @@ jobs:
         with:
           command: fmt
           args: --all -- --check
+      - name: update OS repo index
+         run: apt-get update 
+      - name: Install dia tool
+         run: apt-get install dia
+	  
   test:
     name: 2/2 cargo test with running postgres and redis services
     # needs: [rustfmt, clippy]
