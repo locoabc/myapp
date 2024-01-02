@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="59cm" height="83cm" viewBox="156 40 1171 1646" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="58cm" height="84cm" viewBox="186 18 1143 1668" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="699.912" y1="1184.24" x2="482.547" y2="1057.3"/>
     <polygon style="fill: #000000" points="476.071,1053.52 487.228,1054.24 482.547,1057.3 482.185,1062.88 "/>
@@ -107,11 +107,11 @@
     <polygon style="fill: #000000" points="552.649,325.076 542.425,320.554 547.871,319.295 550.133,314.183 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="552.649,325.076 542.425,320.554 547.871,319.295 550.133,314.183 "/>
   </g>
-  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="512.512" y="98.4998">
-    <tspan x="512.512" y="98.4998">WHEN:  01/01/2024 updated.</tspan>
-    <tspan x="512.512" y="114.5">WHO:  T.J. Yang, inspired by https://se-education.org/learningresources/contents/ruby/Rails.html</tspan>
-    <tspan x="512.512" y="130.5">HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en</tspan>
-    <tspan x="512.512" y="146.5"></tspan>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="507.512" y="70.4998">
+    <tspan x="507.512" y="70.4998">WHEN:  01/01/2024 updated.</tspan>
+    <tspan x="507.512" y="86.4998">WHO:  T.J. Yang, inspired by https://se-education.org/learningresources/contents/ruby/Rails.html</tspan>
+    <tspan x="507.512" y="102.5">HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en</tspan>
+    <tspan x="507.512" y="118.5"></tspan>
   </text>
   <g>
     <g>
@@ -125,98 +125,101 @@
       <tspan x="417.45" y="850.61">user#index</tspan>
     </text>
   </g>
-  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="156.5" y="171.513">
-    <tspan x="156.5" y="171.513">$ tree -L 3 myapp</tspan>
-    <tspan x="156.5" y="187.513">myapp</tspan>
-    <tspan x="156.5" y="203.513">├── Cargo.lock</tspan>
-    <tspan x="156.5" y="219.513">├── Cargo.toml</tspan>
-    <tspan x="156.5" y="235.513">├── config</tspan>
-    <tspan x="156.5" y="251.513">│   ├── development.yaml</tspan>
-    <tspan x="156.5" y="267.513">│   ├── production.yaml</tspan>
-    <tspan x="156.5" y="283.513">│   └── test.yaml</tspan>
-    <tspan x="156.5" y="299.513">├── examples</tspan>
-    <tspan x="156.5" y="315.513">│   └── playground.rs</tspan>
-    <tspan x="156.5" y="331.513">├── frontend</tspan>
-    <tspan x="156.5" y="347.513">│   ├── dist</tspan>
-    <tspan x="156.5" y="363.513">│   │   ├── assets</tspan>
-    <tspan x="156.5" y="379.513">│   │   └── index.html</tspan>
-    <tspan x="156.5" y="395.513">│   ├── favicon.ico</tspan>
-    <tspan x="156.5" y="411.513">│   ├── index.html</tspan>
-    <tspan x="156.5" y="427.513">│   ├── package.json</tspan>
-    <tspan x="156.5" y="443.513">│   ├── pnpm-lock.yaml</tspan>
-    <tspan x="156.5" y="459.513">│   ├── README.md</tspan>
-    <tspan x="156.5" y="475.513">│   ├── src</tspan>
-    <tspan x="156.5" y="491.513">│   │   ├── index.css</tspan>
-    <tspan x="156.5" y="507.513">│   │   └── main.jsx</tspan>
-    <tspan x="156.5" y="523.513">│   └── vite.config.js</tspan>
-    <tspan x="156.5" y="539.513">├── migration</tspan>
-    <tspan x="156.5" y="555.513">│   ├── Cargo.toml</tspan>
-    <tspan x="156.5" y="571.513">│   ├── README.md</tspan>
-    <tspan x="156.5" y="587.513">│   └── src</tspan>
-    <tspan x="156.5" y="603.513">│       ├── lib.rs</tspan>
-    <tspan x="156.5" y="619.513">│       ├── m20220101_000001_users.rs</tspan>
-    <tspan x="156.5" y="635.513">│       ├── m20231103_114510_notes.rs</tspan>
-    <tspan x="156.5" y="651.513">│       ├── m20240101_031322_articles.rs</tspan>
-    <tspan x="156.5" y="667.513">│       └── main.rs</tspan>
-    <tspan x="156.5" y="683.513">├── README.md</tspan>
-    <tspan x="156.5" y="699.513">├── src</tspan>
-    <tspan x="156.5" y="715.513">│   ├── app.rs</tspan>
-    <tspan x="156.5" y="731.513">│   ├── bin</tspan>
-    <tspan x="156.5" y="747.513">│   │   └── main.rs</tspan>
-    <tspan x="156.5" y="763.513">│   ├── controllers</tspan>
-    <tspan x="156.5" y="779.513">│   │   ├── articles.rs</tspan>
-    <tspan x="156.5" y="795.513">│   │   ├── auth.rs</tspan>
-    <tspan x="156.5" y="811.513">│   │   ├── guide.rs</tspan>
-    <tspan x="156.5" y="827.513">│   │   ├── mod.rs</tspan>
-    <tspan x="156.5" y="843.513">│   │   ├── notes.rs</tspan>
-    <tspan x="156.5" y="859.513">│   │   └── user.rs</tspan>
-    <tspan x="156.5" y="875.513">│   ├── fixtures</tspan>
-    <tspan x="156.5" y="891.513">│   │   ├── notes.yaml</tspan>
-    <tspan x="156.5" y="907.513">│   │   └── users.yaml</tspan>
-    <tspan x="156.5" y="923.513">│   ├── lib.rs</tspan>
-    <tspan x="156.5" y="939.513">│   ├── mailers</tspan>
-    <tspan x="156.5" y="955.513">│   │   ├── auth</tspan>
-    <tspan x="156.5" y="971.513">│   │   ├── auth.rs</tspan>
-    <tspan x="156.5" y="987.513">│   │   └── mod.rs</tspan>
-    <tspan x="156.5" y="1003.51">│   ├── models</tspan>
-    <tspan x="156.5" y="1019.51">│   │   ├── articles.rs</tspan>
-    <tspan x="156.5" y="1035.51">│   │   ├── _entities</tspan>
-    <tspan x="156.5" y="1051.51">│   │   ├── mod.rs</tspan>
-    <tspan x="156.5" y="1067.51">│   │   ├── notes.rs</tspan>
-    <tspan x="156.5" y="1083.51">│   │   └── users.rs</tspan>
-    <tspan x="156.5" y="1099.51">│   ├── tasks</tspan>
-    <tspan x="156.5" y="1115.51">│   │   ├── mod.rs</tspan>
-    <tspan x="156.5" y="1131.51">│   │   └── seed.rs</tspan>
-    <tspan x="156.5" y="1147.51">│   ├── views</tspan>
-    <tspan x="156.5" y="1163.51">│   │   ├── auth.rs</tspan>
-    <tspan x="156.5" y="1179.51">│   │   ├── mod.rs</tspan>
-    <tspan x="156.5" y="1195.51">│   │   └── user.rs</tspan>
-    <tspan x="156.5" y="1211.51">│   └── workers</tspan>
-    <tspan x="156.5" y="1227.51">│       ├── downloader.rs</tspan>
-    <tspan x="156.5" y="1243.51">│       └── mod.rs</tspan>
-    <tspan x="156.5" y="1259.51">└── tests</tspan>
-    <tspan x="156.5" y="1275.51">    ├── models</tspan>
-    <tspan x="156.5" y="1291.51">    │   ├── articles.rs</tspan>
-    <tspan x="156.5" y="1307.51">    │   ├── mod.rs</tspan>
-    <tspan x="156.5" y="1323.51">    │   ├── snapshots</tspan>
-    <tspan x="156.5" y="1339.51">    │   └── users.rs</tspan>
-    <tspan x="156.5" y="1355.51">    ├── mod.rs</tspan>
-    <tspan x="156.5" y="1371.51">    ├── requests</tspan>
-    <tspan x="156.5" y="1387.51">    │   ├── articles.rs</tspan>
-    <tspan x="156.5" y="1403.51">    │   ├── auth.rs</tspan>
-    <tspan x="156.5" y="1419.51">    │   ├── guide.rs</tspan>
-    <tspan x="156.5" y="1435.51">    │   ├── mod.rs</tspan>
-    <tspan x="156.5" y="1451.51">    │   ├── notes.rs</tspan>
-    <tspan x="156.5" y="1467.51">    │   ├── prepare_data.rs</tspan>
-    <tspan x="156.5" y="1483.51">    │   ├── snapshots</tspan>
-    <tspan x="156.5" y="1499.51">    │   └── user.rs</tspan>
-    <tspan x="156.5" y="1515.51">    └── tasks</tspan>
-    <tspan x="156.5" y="1531.51">        ├── mod.rs</tspan>
-    <tspan x="156.5" y="1547.51">        └── seed.rs</tspan>
-    <tspan x="156.5" y="1563.51"></tspan>
-    <tspan x="156.5" y="1579.51">25 directories, 60 files</tspan>
-    <tspan x="156.5" y="1595.51">$</tspan>
-    <tspan x="156.5" y="1611.51"></tspan>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="186.5" y="121.513">
+    <tspan x="186.5" y="121.513">$ LOCO_APP_NAME=myapp LOCO_TEMPLATE=saas  loco new -p /tmp</tspan>
+    <tspan x="186.5" y="137.513">$ cd /tmp/myapp/.devcontainer &amp;&amp; docker-compose up -d</tspan>
+    <tspan x="186.5" y="153.513">$ cd /tmp/myapp/ &amp;&amp; cargo test &amp;&amp; cargo installl --path . &amp;&amp; myapp-cli start</tspan>
+    <tspan x="186.5" y="169.513">$ cd /tmp/myapp/; tree -L 3 myapp</tspan>
+    <tspan x="186.5" y="185.513">myapp</tspan>
+    <tspan x="186.5" y="201.513">├── Cargo.lock</tspan>
+    <tspan x="186.5" y="217.513">├── Cargo.toml</tspan>
+    <tspan x="186.5" y="233.513">├── config</tspan>
+    <tspan x="186.5" y="249.513">│   ├── development.yaml</tspan>
+    <tspan x="186.5" y="265.513">│   ├── production.yaml</tspan>
+    <tspan x="186.5" y="281.513">│   └── test.yaml</tspan>
+    <tspan x="186.5" y="297.513">├── examples</tspan>
+    <tspan x="186.5" y="313.513">│   └── playground.rs</tspan>
+    <tspan x="186.5" y="329.513">├── frontend</tspan>
+    <tspan x="186.5" y="345.513">│   ├── dist</tspan>
+    <tspan x="186.5" y="361.513">│   │   ├── assets</tspan>
+    <tspan x="186.5" y="377.513">│   │   └── index.html</tspan>
+    <tspan x="186.5" y="393.513">│   ├── favicon.ico</tspan>
+    <tspan x="186.5" y="409.513">│   ├── index.html</tspan>
+    <tspan x="186.5" y="425.513">│   ├── package.json</tspan>
+    <tspan x="186.5" y="441.513">│   ├── pnpm-lock.yaml</tspan>
+    <tspan x="186.5" y="457.513">│   ├── README.md</tspan>
+    <tspan x="186.5" y="473.513">│   ├── src</tspan>
+    <tspan x="186.5" y="489.513">│   │   ├── index.css</tspan>
+    <tspan x="186.5" y="505.513">│   │   └── main.jsx</tspan>
+    <tspan x="186.5" y="521.513">│   └── vite.config.js</tspan>
+    <tspan x="186.5" y="537.513">├── migration</tspan>
+    <tspan x="186.5" y="553.513">│   ├── Cargo.toml</tspan>
+    <tspan x="186.5" y="569.513">│   ├── README.md</tspan>
+    <tspan x="186.5" y="585.513">│   └── src</tspan>
+    <tspan x="186.5" y="601.513">│       ├── lib.rs</tspan>
+    <tspan x="186.5" y="617.513">│       ├── m20220101_000001_users.rs</tspan>
+    <tspan x="186.5" y="633.513">│       ├── m20231103_114510_notes.rs</tspan>
+    <tspan x="186.5" y="649.513">│       ├── m20240101_031322_articles.rs</tspan>
+    <tspan x="186.5" y="665.513">│       └── main.rs</tspan>
+    <tspan x="186.5" y="681.513">├── README.md</tspan>
+    <tspan x="186.5" y="697.513">├── src</tspan>
+    <tspan x="186.5" y="713.513">│   ├── app.rs</tspan>
+    <tspan x="186.5" y="729.513">│   ├── bin</tspan>
+    <tspan x="186.5" y="745.513">│   │   └── main.rs</tspan>
+    <tspan x="186.5" y="761.513">│   ├── controllers</tspan>
+    <tspan x="186.5" y="777.513">│   │   ├── articles.rs</tspan>
+    <tspan x="186.5" y="793.513">│   │   ├── auth.rs</tspan>
+    <tspan x="186.5" y="809.513">│   │   ├── guide.rs</tspan>
+    <tspan x="186.5" y="825.513">│   │   ├── mod.rs</tspan>
+    <tspan x="186.5" y="841.513">│   │   ├── notes.rs</tspan>
+    <tspan x="186.5" y="857.513">│   │   └── user.rs</tspan>
+    <tspan x="186.5" y="873.513">│   ├── fixtures</tspan>
+    <tspan x="186.5" y="889.513">│   │   ├── notes.yaml</tspan>
+    <tspan x="186.5" y="905.513">│   │   └── users.yaml</tspan>
+    <tspan x="186.5" y="921.513">│   ├── lib.rs</tspan>
+    <tspan x="186.5" y="937.513">│   ├── mailers</tspan>
+    <tspan x="186.5" y="953.513">│   │   ├── auth</tspan>
+    <tspan x="186.5" y="969.513">│   │   ├── auth.rs</tspan>
+    <tspan x="186.5" y="985.513">│   │   └── mod.rs</tspan>
+    <tspan x="186.5" y="1001.51">│   ├── models</tspan>
+    <tspan x="186.5" y="1017.51">│   │   ├── articles.rs</tspan>
+    <tspan x="186.5" y="1033.51">│   │   ├── _entities</tspan>
+    <tspan x="186.5" y="1049.51">│   │   ├── mod.rs</tspan>
+    <tspan x="186.5" y="1065.51">│   │   ├── notes.rs</tspan>
+    <tspan x="186.5" y="1081.51">│   │   └── users.rs</tspan>
+    <tspan x="186.5" y="1097.51">│   ├── tasks</tspan>
+    <tspan x="186.5" y="1113.51">│   │   ├── mod.rs</tspan>
+    <tspan x="186.5" y="1129.51">│   │   └── seed.rs</tspan>
+    <tspan x="186.5" y="1145.51">│   ├── views</tspan>
+    <tspan x="186.5" y="1161.51">│   │   ├── auth.rs</tspan>
+    <tspan x="186.5" y="1177.51">│   │   ├── mod.rs</tspan>
+    <tspan x="186.5" y="1193.51">│   │   └── user.rs</tspan>
+    <tspan x="186.5" y="1209.51">│   └── workers</tspan>
+    <tspan x="186.5" y="1225.51">│       ├── downloader.rs</tspan>
+    <tspan x="186.5" y="1241.51">│       └── mod.rs</tspan>
+    <tspan x="186.5" y="1257.51">└── tests</tspan>
+    <tspan x="186.5" y="1273.51">    ├── models</tspan>
+    <tspan x="186.5" y="1289.51">    │   ├── articles.rs</tspan>
+    <tspan x="186.5" y="1305.51">    │   ├── mod.rs</tspan>
+    <tspan x="186.5" y="1321.51">    │   ├── snapshots</tspan>
+    <tspan x="186.5" y="1337.51">    │   └── users.rs</tspan>
+    <tspan x="186.5" y="1353.51">    ├── mod.rs</tspan>
+    <tspan x="186.5" y="1369.51">    ├── requests</tspan>
+    <tspan x="186.5" y="1385.51">    │   ├── articles.rs</tspan>
+    <tspan x="186.5" y="1401.51">    │   ├── auth.rs</tspan>
+    <tspan x="186.5" y="1417.51">    │   ├── guide.rs</tspan>
+    <tspan x="186.5" y="1433.51">    │   ├── mod.rs</tspan>
+    <tspan x="186.5" y="1449.51">    │   ├── notes.rs</tspan>
+    <tspan x="186.5" y="1465.51">    │   ├── prepare_data.rs</tspan>
+    <tspan x="186.5" y="1481.51">    │   ├── snapshots</tspan>
+    <tspan x="186.5" y="1497.51">    │   └── user.rs</tspan>
+    <tspan x="186.5" y="1513.51">    └── tasks</tspan>
+    <tspan x="186.5" y="1529.51">        ├── mod.rs</tspan>
+    <tspan x="186.5" y="1545.51">        └── seed.rs</tspan>
+    <tspan x="186.5" y="1561.51"></tspan>
+    <tspan x="186.5" y="1577.51">25 directories, 60 files</tspan>
+    <tspan x="186.5" y="1593.51">$</tspan>
+    <tspan x="186.5" y="1609.51"></tspan>
   </text>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1040.5" y1="803.984" x2="1012.39" y2="832.024"/>
@@ -301,10 +304,10 @@
       <tspan x="1063.5" y="1149.8">HTML</tspan>
     </text>
   </g>
-  <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="369" y="61.8">
-    <tspan x="369" y="61.8">WHAT: MVC dataflow diagram for loco saas app with postgresql DB and redis servers</tspan>
-    <tspan x="369" y="90.0222"></tspan>
-    <tspan x="369" y="118.244"></tspan>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="371" y="39.8">
+    <tspan x="371" y="39.8">WHAT: MVC dataflow diagram for loco saas app with postgresql DB and redis servers</tspan>
+    <tspan x="371" y="68.0222"></tspan>
+    <tspan x="371" y="96.2444"></tspan>
   </text>
   <g>
     <g>
