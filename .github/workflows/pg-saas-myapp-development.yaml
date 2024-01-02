@@ -36,8 +36,10 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y dia
       - run: pwd
-      - run: ls -lrt ${{ github.workspace }}
-      - run: (cd ${{ github.workspace }}/docs && ./format-conversion.sh ./myappp-saas-pg)
+      - run: |
+          ls -lrt ${{ github.workspace }}
+      - run: |
+          cd ${{ github.workspace }}/docs && ./format-conversion.sh ./myappp-saas-pg
 
   rustfmt:
     name: 3/4 rust format
