@@ -39,9 +39,9 @@ jobs:
       - run: |
           pwd && ls ${{ github.workspace }}
       - run: |
-          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg && ./format-conversion.sh myappp-saas-sqlite )
-#      - run: |
-#          (cd ${{ github.workspace }}/docs && )
+          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg )
+      - run: |
+          (cd ${{ github.workspace }}/docs &&./format-conversion.sh myappp-saas-sqlite)
 #      - run: |
 #          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-mysql )
 #      - run: |
