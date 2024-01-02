@@ -1,5 +1,5 @@
 name: CI
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: Building loco apps by ${{ github.actor }} 🚀
 on:
   push:
     branches:
