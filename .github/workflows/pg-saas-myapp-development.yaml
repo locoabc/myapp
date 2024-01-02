@@ -40,17 +40,16 @@ jobs:
           pwd && ls ${{ github.workspace }}
       - run: |
           (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg )
-      - run: |
-          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-sqlite )
-      - run: |
-          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-mysql )
-      - run: |
-          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-restapi-pg )
-      - run: |
-          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-restapi-sqlite )
-      - run: |
-          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myapp-lightweight-service )
-	  
+#      - run: |
+#          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-sqlite )
+#      - run: |
+#          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-mysql )
+#      - run: |
+#          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-restapi-pg )
+#      - run: |
+#          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-restapi-sqlite )
+#      - run: |
+#          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myapp-lightweight-service )
 
 ## Commit and push all changed files.
 #      - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
