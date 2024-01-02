@@ -12,7 +12,7 @@ env:
 
 jobs:
   rustfmt:
-    name: Check Style
+    name: 1/2 rust format
     runs-on: ubuntu-latest
 
     permissions:
@@ -33,7 +33,7 @@ jobs:
           command: fmt
           args: --all -- --check
   test:
-    name: cargo test with running postgres and redis services
+    name: 2/2 cargo test 
     needs: [rustfmt]
     runs-on: ubuntu-latest
     permissions:
