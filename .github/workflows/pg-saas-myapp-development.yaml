@@ -1,5 +1,5 @@
-name: pg-saas-myapp-development
-run-name:${{ github.actor }} is testing out GitHub Actions 🚀
+name: CI
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   push:
     branches:
