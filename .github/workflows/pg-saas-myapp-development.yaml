@@ -39,7 +39,7 @@ jobs:
         uses: actions/checkout@v4
       - run: pwd
       - run: |
-          ls ${{ github.workspace }}
+          ls ${{ github.workspace }} && git status
       - run: |
           (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg)
 
