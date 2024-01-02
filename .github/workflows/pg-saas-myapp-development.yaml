@@ -28,6 +28,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
   rustfmt:
     name: 2/3 rust format
+    needs: [Explore-GitHub-Actions]
     runs-on: ubuntu-latest
 
     permissions:
