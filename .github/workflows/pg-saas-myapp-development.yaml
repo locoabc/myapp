@@ -12,6 +12,7 @@ env:
 
 jobs:
   Explore-GitHub-Actions:
+    name: 1/3 rust format
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -26,7 +27,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
   rustfmt:
-    name: 1/2 rust format
+    name: 2/3 rust format
     runs-on: ubuntu-latest
 
     permissions:
@@ -47,7 +48,7 @@ jobs:
           command: fmt
           args: --all -- --check
   test:
-    name: 2/2 cargo test 
+    name: 3/3 cargo test 
     needs: [rustfmt]
     runs-on: ubuntu-latest
     permissions:
