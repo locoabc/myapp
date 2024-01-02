@@ -1,5 +1,5 @@
 name: CI
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+
 on:
   push:
     branches:
@@ -19,8 +19,6 @@ jobs:
       contents: read
 
     steps:
-      - name: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - name: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - name: Checkout the code
         uses: actions/checkout@v4
       - uses: actions-rs/toolchain@v1
