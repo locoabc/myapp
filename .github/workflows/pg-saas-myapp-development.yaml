@@ -35,8 +35,9 @@ jobs:
       - name: install dia diagramming tool
         run: |
           sudo apt-get update && sudo apt-get install -y dia
-      - run: (cd docs;./format-conversion.sh ./myappp-saas-pg.dia)
-      - run: (cd docs; ls -lrt )
+      - run: pwd
+      - run: (docs/format-conversion.sh ./myappp-saas-pg.dia)
+      - run: (ls -lrt docs)
   rustfmt:
     name: 3/4 rust format
     needs: [install-apps]
