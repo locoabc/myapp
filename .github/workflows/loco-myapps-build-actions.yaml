@@ -39,17 +39,17 @@ jobs:
       - run: |
           pwd && ls ${{ github.workspace }}/docs
       - run: |
-          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg )
+          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myapp-saas-pg )
       - run: |
-          (cd ${{ github.workspace }}/docs &&./format-conversion.sh myappp-saas-sqlite)
-#      - run: |
-#          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-mysql )
-#      - run: |
-#          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-restapi-pg )
-#      - run: |
-#          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-restapi-sqlite )
-#      - run: |
-#          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myapp-lightweight-service )
+          (cd ${{ github.workspace }}/docs &&./format-conversion.sh myapp-saas-sqlite)
+      - run: |
+          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myapp-saas-mysql )
+      - run: |
+          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myapp-saas-restapi-pg )
+      - run: |
+          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myapp-saas-restapi-sqlite )
+      - run: |
+          (cd ${{ github.workspace }}/docs && ./format-conversion.sh myap-lightweight-service )
 
 ## Commit and push all changed files.
 #      - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
