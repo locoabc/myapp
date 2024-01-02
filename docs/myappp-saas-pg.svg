@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="60cm" height="81cm" viewBox="156 84 1195 1602" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <g>
-    <path style="fill: #bfbfbf" d="M 406.226 191.228 C 420.281,183.407 427.308,180.8 441.363,180.8 C 455.418,180.8 462.446,183.407 476.5,191.228 L 476.5,232.94 C 462.446,240.762 455.418,243.369 441.363,243.369 C 427.308,243.369 420.281,240.762 406.226,232.94 L 406.226,191.228z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 406.226 191.228 C 420.281,183.407 427.308,180.8 441.363,180.8 C 455.418,180.8 462.446,183.407 476.5,191.228 L 476.5,232.94 C 462.446,240.762 455.418,243.369 441.363,243.369 C 427.308,243.369 420.281,240.762 406.226,232.94 L 406.226,191.228"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 406.226 191.228 C 420.281,199.049 427.308,201.656 441.363,201.656 C 455.418,201.656 462.446,199.049 476.5,191.228"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="441.363" y="221.18">
-      <tspan x="441.363" y="221.18">Database</tspan>
-    </text>
-  </g>
+<svg width="59cm" height="83cm" viewBox="156 40 1178 1646" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="699.912" y1="1184.24" x2="482.547" y2="1057.3"/>
     <polygon style="fill: #000000" points="476.071,1053.52 487.228,1054.24 482.547,1057.3 482.185,1062.88 "/>
@@ -85,10 +77,10 @@
     </text>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="458.886" cy="283.082" rx="20.4977" ry="19.3865"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="458.886" cy="283.082" rx="20.4977" ry="19.3865"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="458.886" y="286.963">
-      <tspan x="458.886" y="286.963">4</tspan>
+    <ellipse style="fill: #ffffff" cx="470.886" cy="288.082" rx="20.4977" ry="19.3865"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="470.886" cy="288.082" rx="20.4977" ry="19.3865"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470.886" y="291.963">
+      <tspan x="470.886" y="291.963">4</tspan>
     </text>
   </g>
   <g>
@@ -115,11 +107,11 @@
     <polygon style="fill: #000000" points="552.649,325.076 542.425,320.554 547.871,319.295 550.133,314.183 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="552.649,325.076 542.425,320.554 547.871,319.295 550.133,314.183 "/>
   </g>
-  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="540.512" y="122.5">
-    <tspan x="540.512" y="122.5">WHEN:  01/01/2024 updated.</tspan>
-    <tspan x="540.512" y="138.5">WHO:  T.J. Yang, inspired by https://se-education.org/learningresources/contents/ruby/Rails.html</tspan>
-    <tspan x="540.512" y="154.5">HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en</tspan>
-    <tspan x="540.512" y="170.5"></tspan>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="512.512" y="98.4998">
+    <tspan x="512.512" y="98.4998">WHEN:  01/01/2024 updated.</tspan>
+    <tspan x="512.512" y="114.5">WHO:  T.J. Yang, inspired by https://se-education.org/learningresources/contents/ruby/Rails.html</tspan>
+    <tspan x="512.512" y="130.5">HOW: Diagram using Dia at http://dia-installer.de/download/index.html.en</tspan>
+    <tspan x="512.512" y="146.5"></tspan>
   </text>
   <g>
     <g>
@@ -227,21 +219,6 @@
     <tspan x="156.5" y="1611.51"></tspan>
   </text>
   <g>
-    <path style="fill: #bfbfbf" d="M 562.4 194.428 C 576.455,186.607 583.482,184 597.537,184 C 611.592,184 618.62,186.607 632.674,194.428 L 632.674,236.14 C 618.62,243.962 611.592,246.569 597.537,246.569 C 583.482,246.569 576.455,243.962 562.4,236.14 L 562.4,194.428z"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 562.4 194.428 C 576.455,186.607 583.482,184 597.537,184 C 611.592,184 618.62,186.607 632.674,194.428 L 632.674,236.14 C 618.62,243.962 611.592,246.569 597.537,246.569 C 583.482,246.569 576.455,243.962 562.4,236.14 L 562.4,194.428"/>
-    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 562.4 194.428 C 576.455,202.249 583.482,204.856 597.537,204.856 C 611.592,204.856 618.62,202.249 632.674,194.428"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="597.537" y="224.38">
-      <tspan x="597.537" y="224.38">Redis</tspan>
-    </text>
-  </g>
-  <g>
-    <rect style="fill: #bfbfbf" x="859.5" y="191.8" width="135.472" height="52.8074"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="859.5" y="191.8" width="135.472" height="52.8074"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="927.236" y="222.085">
-      <tspan x="927.236" y="222.085">mailer</tspan>
-    </text>
-  </g>
-  <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1040.5" y1="803.984" x2="1012.39" y2="832.024"/>
     <polygon style="fill: #000000" points="1007.08,837.321 1010.63,826.718 1012.39,832.024 1017.69,833.798 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1007.08,837.321 1010.63,826.718 1012.39,832.024 1017.69,833.798 "/>
@@ -324,10 +301,10 @@
       <tspan x="1063.5" y="1149.8">HTML</tspan>
     </text>
   </g>
-  <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="386" y="105.8">
-    <tspan x="386" y="105.8">WHAT: MVC dataflow diagram  for loco saas app with postgresql DB and redis servers</tspan>
-    <tspan x="386" y="134.022"></tspan>
-    <tspan x="386" y="162.244"></tspan>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="369" y="61.8">
+    <tspan x="369" y="61.8">WHAT: MVC dataflow diagram  for loco saas app with postgresql DB and redis servers</tspan>
+    <tspan x="369" y="90.0222"></tspan>
+    <tspan x="369" y="118.244"></tspan>
   </text>
   <g>
     <g>
@@ -407,4 +384,42 @@
     <tspan x="613.5" y="1489.39">curl localhost:3000/api/user;echo          # get list of users</tspan>
     <tspan x="613.5" y="1505.39"></tspan>
   </text>
+  <g>
+    <g>
+      <path style="fill: #bfbfbf" d="M 406.226 191.228 C 420.281,183.407 427.308,180.8 441.363,180.8 C 455.418,180.8 462.446,183.407 476.5,191.228 L 476.5,232.94 C 462.446,240.762 455.418,243.369 441.363,243.369 C 427.308,243.369 420.281,240.762 406.226,232.94 L 406.226,191.228z"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 406.226 191.228 C 420.281,183.407 427.308,180.8 441.363,180.8 C 455.418,180.8 462.446,183.407 476.5,191.228 L 476.5,232.94 C 462.446,240.762 455.418,243.369 441.363,243.369 C 427.308,243.369 420.281,240.762 406.226,232.94 L 406.226,191.228"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 406.226 191.228 C 420.281,199.049 427.308,201.656 441.363,201.656 C 455.418,201.656 462.446,199.049 476.5,191.228"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="441.363" y="221.18">
+        <tspan x="441.363" y="221.18">Database</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400.5" y="175.392">
+      <tspan x="400.5" y="175.392">localhost:5432</tspan>
+    </text>
+  </g>
+  <g>
+    <g>
+      <path style="fill: #bfbfbf" d="M 562.4 194.428 C 576.455,186.607 583.482,184 597.537,184 C 611.592,184 618.62,186.607 632.674,194.428 L 632.674,236.14 C 618.62,243.962 611.592,246.569 597.537,246.569 C 583.482,246.569 576.455,243.962 562.4,236.14 L 562.4,194.428z"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 562.4 194.428 C 576.455,186.607 583.482,184 597.537,184 C 611.592,184 618.62,186.607 632.674,194.428 L 632.674,236.14 C 618.62,243.962 611.592,246.569 597.537,246.569 C 583.482,246.569 576.455,243.962 562.4,236.14 L 562.4,194.428"/>
+      <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 562.4 194.428 C 576.455,202.249 583.482,204.856 597.537,204.856 C 611.592,204.856 618.62,202.249 632.674,194.428"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="597.537" y="224.38">
+        <tspan x="597.537" y="224.38">Redis</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="556.5" y="178.392">
+      <tspan x="556.5" y="178.392">localhost:6379</tspan>
+    </text>
+  </g>
+  <g>
+    <g>
+      <rect style="fill: #bfbfbf" x="859.5" y="191.8" width="135.472" height="52.8074"/>
+      <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="859.5" y="191.8" width="135.472" height="52.8074"/>
+      <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="927.236" y="222.085">
+        <tspan x="927.236" y="222.085">mailer</tspan>
+      </text>
+    </g>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="880.5" y="183.392">
+      <tspan x="880.5" y="183.392">localhost:1025</tspan>
+    </text>
+  </g>
 </svg>
