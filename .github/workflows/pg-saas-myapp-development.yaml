@@ -35,6 +35,8 @@ jobs:
       - name: install dia diagramming tool
         run: |
           sudo apt-get update && sudo apt-get install -y dia
+      - name: Check out repository code
+        uses: actions/checkout@v4
       - run: pwd
       - run: |
           ls ${{ github.workspace }}
