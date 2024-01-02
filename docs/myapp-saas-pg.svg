@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="58cm" height="84cm" viewBox="186 18 1143 1668" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="62cm" height="84cm" viewBox="93 18 1236 1668" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="699.912" y1="1184.24" x2="482.547" y2="1057.3"/>
     <polygon style="fill: #000000" points="476.071,1053.52 487.228,1054.24 482.547,1057.3 482.185,1062.88 "/>
@@ -125,101 +125,101 @@
       <tspan x="417.45" y="850.61">user#index</tspan>
     </text>
   </g>
-  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="186.5" y="121.513">
-    <tspan x="186.5" y="121.513">$ LOCO_APP_NAME=myapp LOCO_TEMPLATE=saas  loco new -p /tmp</tspan>
-    <tspan x="186.5" y="137.513">$ cd /tmp/myapp/.devcontainer &amp;&amp; docker-compose up -d</tspan>
-    <tspan x="186.5" y="153.513">$ cd /tmp/myapp/ &amp;&amp; cargo test &amp;&amp; cargo installl --path . &amp;&amp; myapp-cli start  --server-and-worker</tspan>
-    <tspan x="186.5" y="169.513">$ cd /tmp/myapp/; tree -L 3 myapp</tspan>
-    <tspan x="186.5" y="185.513">myapp</tspan>
-    <tspan x="186.5" y="201.513">├── Cargo.lock</tspan>
-    <tspan x="186.5" y="217.513">├── Cargo.toml</tspan>
-    <tspan x="186.5" y="233.513">├── config</tspan>
-    <tspan x="186.5" y="249.513">│   ├── development.yaml</tspan>
-    <tspan x="186.5" y="265.513">│   ├── production.yaml</tspan>
-    <tspan x="186.5" y="281.513">│   └── test.yaml</tspan>
-    <tspan x="186.5" y="297.513">├── examples</tspan>
-    <tspan x="186.5" y="313.513">│   └── playground.rs</tspan>
-    <tspan x="186.5" y="329.513">├── frontend</tspan>
-    <tspan x="186.5" y="345.513">│   ├── dist</tspan>
-    <tspan x="186.5" y="361.513">│   │   ├── assets</tspan>
-    <tspan x="186.5" y="377.513">│   │   └── index.html</tspan>
-    <tspan x="186.5" y="393.513">│   ├── favicon.ico</tspan>
-    <tspan x="186.5" y="409.513">│   ├── index.html</tspan>
-    <tspan x="186.5" y="425.513">│   ├── package.json</tspan>
-    <tspan x="186.5" y="441.513">│   ├── pnpm-lock.yaml</tspan>
-    <tspan x="186.5" y="457.513">│   ├── README.md</tspan>
-    <tspan x="186.5" y="473.513">│   ├── src</tspan>
-    <tspan x="186.5" y="489.513">│   │   ├── index.css</tspan>
-    <tspan x="186.5" y="505.513">│   │   └── main.jsx</tspan>
-    <tspan x="186.5" y="521.513">│   └── vite.config.js</tspan>
-    <tspan x="186.5" y="537.513">├── migration</tspan>
-    <tspan x="186.5" y="553.513">│   ├── Cargo.toml</tspan>
-    <tspan x="186.5" y="569.513">│   ├── README.md</tspan>
-    <tspan x="186.5" y="585.513">│   └── src</tspan>
-    <tspan x="186.5" y="601.513">│       ├── lib.rs</tspan>
-    <tspan x="186.5" y="617.513">│       ├── m20220101_000001_users.rs</tspan>
-    <tspan x="186.5" y="633.513">│       ├── m20231103_114510_notes.rs</tspan>
-    <tspan x="186.5" y="649.513">│       ├── m20240101_031322_articles.rs</tspan>
-    <tspan x="186.5" y="665.513">│       └── main.rs</tspan>
-    <tspan x="186.5" y="681.513">├── README.md</tspan>
-    <tspan x="186.5" y="697.513">├── src</tspan>
-    <tspan x="186.5" y="713.513">│   ├── app.rs</tspan>
-    <tspan x="186.5" y="729.513">│   ├── bin</tspan>
-    <tspan x="186.5" y="745.513">│   │   └── main.rs</tspan>
-    <tspan x="186.5" y="761.513">│   ├── controllers</tspan>
-    <tspan x="186.5" y="777.513">│   │   ├── articles.rs</tspan>
-    <tspan x="186.5" y="793.513">│   │   ├── auth.rs</tspan>
-    <tspan x="186.5" y="809.513">│   │   ├── guide.rs</tspan>
-    <tspan x="186.5" y="825.513">│   │   ├── mod.rs</tspan>
-    <tspan x="186.5" y="841.513">│   │   ├── notes.rs</tspan>
-    <tspan x="186.5" y="857.513">│   │   └── user.rs</tspan>
-    <tspan x="186.5" y="873.513">│   ├── fixtures</tspan>
-    <tspan x="186.5" y="889.513">│   │   ├── notes.yaml</tspan>
-    <tspan x="186.5" y="905.513">│   │   └── users.yaml</tspan>
-    <tspan x="186.5" y="921.513">│   ├── lib.rs</tspan>
-    <tspan x="186.5" y="937.513">│   ├── mailers</tspan>
-    <tspan x="186.5" y="953.513">│   │   ├── auth</tspan>
-    <tspan x="186.5" y="969.513">│   │   ├── auth.rs</tspan>
-    <tspan x="186.5" y="985.513">│   │   └── mod.rs</tspan>
-    <tspan x="186.5" y="1001.51">│   ├── models</tspan>
-    <tspan x="186.5" y="1017.51">│   │   ├── articles.rs</tspan>
-    <tspan x="186.5" y="1033.51">│   │   ├── _entities</tspan>
-    <tspan x="186.5" y="1049.51">│   │   ├── mod.rs</tspan>
-    <tspan x="186.5" y="1065.51">│   │   ├── notes.rs</tspan>
-    <tspan x="186.5" y="1081.51">│   │   └── users.rs</tspan>
-    <tspan x="186.5" y="1097.51">│   ├── tasks</tspan>
-    <tspan x="186.5" y="1113.51">│   │   ├── mod.rs</tspan>
-    <tspan x="186.5" y="1129.51">│   │   └── seed.rs</tspan>
-    <tspan x="186.5" y="1145.51">│   ├── views</tspan>
-    <tspan x="186.5" y="1161.51">│   │   ├── auth.rs</tspan>
-    <tspan x="186.5" y="1177.51">│   │   ├── mod.rs</tspan>
-    <tspan x="186.5" y="1193.51">│   │   └── user.rs</tspan>
-    <tspan x="186.5" y="1209.51">│   └── workers</tspan>
-    <tspan x="186.5" y="1225.51">│       ├── downloader.rs</tspan>
-    <tspan x="186.5" y="1241.51">│       └── mod.rs</tspan>
-    <tspan x="186.5" y="1257.51">└── tests</tspan>
-    <tspan x="186.5" y="1273.51">    ├── models</tspan>
-    <tspan x="186.5" y="1289.51">    │   ├── articles.rs</tspan>
-    <tspan x="186.5" y="1305.51">    │   ├── mod.rs</tspan>
-    <tspan x="186.5" y="1321.51">    │   ├── snapshots</tspan>
-    <tspan x="186.5" y="1337.51">    │   └── users.rs</tspan>
-    <tspan x="186.5" y="1353.51">    ├── mod.rs</tspan>
-    <tspan x="186.5" y="1369.51">    ├── requests</tspan>
-    <tspan x="186.5" y="1385.51">    │   ├── articles.rs</tspan>
-    <tspan x="186.5" y="1401.51">    │   ├── auth.rs</tspan>
-    <tspan x="186.5" y="1417.51">    │   ├── guide.rs</tspan>
-    <tspan x="186.5" y="1433.51">    │   ├── mod.rs</tspan>
-    <tspan x="186.5" y="1449.51">    │   ├── notes.rs</tspan>
-    <tspan x="186.5" y="1465.51">    │   ├── prepare_data.rs</tspan>
-    <tspan x="186.5" y="1481.51">    │   ├── snapshots</tspan>
-    <tspan x="186.5" y="1497.51">    │   └── user.rs</tspan>
-    <tspan x="186.5" y="1513.51">    └── tasks</tspan>
-    <tspan x="186.5" y="1529.51">        ├── mod.rs</tspan>
-    <tspan x="186.5" y="1545.51">        └── seed.rs</tspan>
-    <tspan x="186.5" y="1561.51"></tspan>
-    <tspan x="186.5" y="1577.51">25 directories, 60 files</tspan>
-    <tspan x="186.5" y="1593.51">$</tspan>
-    <tspan x="186.5" y="1609.51"></tspan>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="93.5" y="116.513">
+    <tspan x="93.5" y="116.513">$ LOCO_APP_NAME=myapp LOCO_TEMPLATE=saas  loco new -p /tmp</tspan>
+    <tspan x="93.5" y="132.513">$ cd /tmp/myapp/.devcontainer &amp;&amp; docker-compose up -d</tspan>
+    <tspan x="93.5" y="148.513">$ cd /tmp/myapp/ &amp;&amp; cargo test &amp;&amp; cargo installl --path . &amp;&amp; myapp-cli start  --server-and-worker</tspan>
+    <tspan x="93.5" y="164.513">$ cd /tmp/myapp/; tree -L 3 myapp</tspan>
+    <tspan x="93.5" y="180.513">myapp</tspan>
+    <tspan x="93.5" y="196.513">├── Cargo.lock</tspan>
+    <tspan x="93.5" y="212.513">├── Cargo.toml</tspan>
+    <tspan x="93.5" y="228.513">├── config</tspan>
+    <tspan x="93.5" y="244.513">│   ├── development.yaml</tspan>
+    <tspan x="93.5" y="260.513">│   ├── production.yaml</tspan>
+    <tspan x="93.5" y="276.513">│   └── test.yaml</tspan>
+    <tspan x="93.5" y="292.513">├── examples</tspan>
+    <tspan x="93.5" y="308.513">│   └── playground.rs</tspan>
+    <tspan x="93.5" y="324.513">├── frontend</tspan>
+    <tspan x="93.5" y="340.513">│   ├── dist</tspan>
+    <tspan x="93.5" y="356.513">│   │   ├── assets</tspan>
+    <tspan x="93.5" y="372.513">│   │   └── index.html</tspan>
+    <tspan x="93.5" y="388.513">│   ├── favicon.ico</tspan>
+    <tspan x="93.5" y="404.513">│   ├── index.html</tspan>
+    <tspan x="93.5" y="420.513">│   ├── package.json</tspan>
+    <tspan x="93.5" y="436.513">│   ├── pnpm-lock.yaml</tspan>
+    <tspan x="93.5" y="452.513">│   ├── README.md</tspan>
+    <tspan x="93.5" y="468.513">│   ├── src</tspan>
+    <tspan x="93.5" y="484.513">│   │   ├── index.css</tspan>
+    <tspan x="93.5" y="500.513">│   │   └── main.jsx</tspan>
+    <tspan x="93.5" y="516.513">│   └── vite.config.js</tspan>
+    <tspan x="93.5" y="532.513">├── migration</tspan>
+    <tspan x="93.5" y="548.513">│   ├── Cargo.toml</tspan>
+    <tspan x="93.5" y="564.513">│   ├── README.md</tspan>
+    <tspan x="93.5" y="580.513">│   └── src</tspan>
+    <tspan x="93.5" y="596.513">│       ├── lib.rs</tspan>
+    <tspan x="93.5" y="612.513">│       ├── m20220101_000001_users.rs</tspan>
+    <tspan x="93.5" y="628.513">│       ├── m20231103_114510_notes.rs</tspan>
+    <tspan x="93.5" y="644.513">│       ├── m20240101_031322_articles.rs</tspan>
+    <tspan x="93.5" y="660.513">│       └── main.rs</tspan>
+    <tspan x="93.5" y="676.513">├── README.md</tspan>
+    <tspan x="93.5" y="692.513">├── src</tspan>
+    <tspan x="93.5" y="708.513">│   ├── app.rs</tspan>
+    <tspan x="93.5" y="724.513">│   ├── bin</tspan>
+    <tspan x="93.5" y="740.513">│   │   └── main.rs</tspan>
+    <tspan x="93.5" y="756.513">│   ├── controllers</tspan>
+    <tspan x="93.5" y="772.513">│   │   ├── articles.rs</tspan>
+    <tspan x="93.5" y="788.513">│   │   ├── auth.rs</tspan>
+    <tspan x="93.5" y="804.513">│   │   ├── guide.rs</tspan>
+    <tspan x="93.5" y="820.513">│   │   ├── mod.rs</tspan>
+    <tspan x="93.5" y="836.513">│   │   ├── notes.rs</tspan>
+    <tspan x="93.5" y="852.513">│   │   └── user.rs</tspan>
+    <tspan x="93.5" y="868.513">│   ├── fixtures</tspan>
+    <tspan x="93.5" y="884.513">│   │   ├── notes.yaml</tspan>
+    <tspan x="93.5" y="900.513">│   │   └── users.yaml</tspan>
+    <tspan x="93.5" y="916.513">│   ├── lib.rs</tspan>
+    <tspan x="93.5" y="932.513">│   ├── mailers</tspan>
+    <tspan x="93.5" y="948.513">│   │   ├── auth</tspan>
+    <tspan x="93.5" y="964.513">│   │   ├── auth.rs</tspan>
+    <tspan x="93.5" y="980.513">│   │   └── mod.rs</tspan>
+    <tspan x="93.5" y="996.513">│   ├── models</tspan>
+    <tspan x="93.5" y="1012.51">│   │   ├── articles.rs</tspan>
+    <tspan x="93.5" y="1028.51">│   │   ├── _entities</tspan>
+    <tspan x="93.5" y="1044.51">│   │   ├── mod.rs</tspan>
+    <tspan x="93.5" y="1060.51">│   │   ├── notes.rs</tspan>
+    <tspan x="93.5" y="1076.51">│   │   └── users.rs</tspan>
+    <tspan x="93.5" y="1092.51">│   ├── tasks</tspan>
+    <tspan x="93.5" y="1108.51">│   │   ├── mod.rs</tspan>
+    <tspan x="93.5" y="1124.51">│   │   └── seed.rs</tspan>
+    <tspan x="93.5" y="1140.51">│   ├── views</tspan>
+    <tspan x="93.5" y="1156.51">│   │   ├── auth.rs</tspan>
+    <tspan x="93.5" y="1172.51">│   │   ├── mod.rs</tspan>
+    <tspan x="93.5" y="1188.51">│   │   └── user.rs</tspan>
+    <tspan x="93.5" y="1204.51">│   └── workers</tspan>
+    <tspan x="93.5" y="1220.51">│       ├── downloader.rs</tspan>
+    <tspan x="93.5" y="1236.51">│       └── mod.rs</tspan>
+    <tspan x="93.5" y="1252.51">└── tests</tspan>
+    <tspan x="93.5" y="1268.51">    ├── models</tspan>
+    <tspan x="93.5" y="1284.51">    │   ├── articles.rs</tspan>
+    <tspan x="93.5" y="1300.51">    │   ├── mod.rs</tspan>
+    <tspan x="93.5" y="1316.51">    │   ├── snapshots</tspan>
+    <tspan x="93.5" y="1332.51">    │   └── users.rs</tspan>
+    <tspan x="93.5" y="1348.51">    ├── mod.rs</tspan>
+    <tspan x="93.5" y="1364.51">    ├── requests</tspan>
+    <tspan x="93.5" y="1380.51">    │   ├── articles.rs</tspan>
+    <tspan x="93.5" y="1396.51">    │   ├── auth.rs</tspan>
+    <tspan x="93.5" y="1412.51">    │   ├── guide.rs</tspan>
+    <tspan x="93.5" y="1428.51">    │   ├── mod.rs</tspan>
+    <tspan x="93.5" y="1444.51">    │   ├── notes.rs</tspan>
+    <tspan x="93.5" y="1460.51">    │   ├── prepare_data.rs</tspan>
+    <tspan x="93.5" y="1476.51">    │   ├── snapshots</tspan>
+    <tspan x="93.5" y="1492.51">    │   └── user.rs</tspan>
+    <tspan x="93.5" y="1508.51">    └── tasks</tspan>
+    <tspan x="93.5" y="1524.51">        ├── mod.rs</tspan>
+    <tspan x="93.5" y="1540.51">        └── seed.rs</tspan>
+    <tspan x="93.5" y="1556.51"></tspan>
+    <tspan x="93.5" y="1572.51">25 directories, 60 files</tspan>
+    <tspan x="93.5" y="1588.51">$</tspan>
+    <tspan x="93.5" y="1604.51"></tspan>
   </text>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1040.5" y1="803.984" x2="1012.39" y2="832.024"/>
