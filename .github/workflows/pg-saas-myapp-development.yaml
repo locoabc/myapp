@@ -41,15 +41,16 @@ jobs:
           pwd && ls ${{ github.workspace }}
       - run: |
           (cd ${{ github.workspace }}/docs && ./format-conversion.sh myappp-saas-pg && git status)
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Automated Change
-          branch: main
-          commit_options: '--no-verify --signoff'
-          commit_author: Author <actions@github.com>
-          status_options: '--untracked-files=no'
-          skip_dirty_check: true
+# disable for now	  
+#      - name: Commit changes
+#        uses: stefanzweifel/git-auto-commit-action@v4
+#        with:
+#          commit_message: Automated Change
+#          branch: main
+#          commit_options: '--no-verify --signoff'
+#          commit_author: Author <actions@github.com>
+#          status_options: '--untracked-files=no'
+#          skip_dirty_check: true
 
   rustfmt:
     name: 3/4 rust format
