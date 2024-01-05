@@ -9,6 +9,35 @@ This source repo is for (Getting Started)(https://github.com/loco-rs/loco/blob/m
 
 ## Quick Start
 
+Docker environment setup
+
+```
+[me@rocky9t01a myapp]$ tree -aL 1  .devcontainer/
+.devcontainer/
+├── devcontainer.json
+├── docker-compose.yml
+├── Dockerfile
+└── .env
+
+0 directories, 4 files
+[me@rocky9t01a myapp]$ cat .devcontainer/.env
+POSTGRES_DB=loco_app
+POSTGRES_USER=loco
+POSTGRES_PASSWORD=loco
+DATABASE_URL=postgres://loco:loco@db:5432/loco_app
+REDIS_URL=redis://redis:6379
+MAILER_HOST=mailer[me@rocky9t01a myapp]$
+
+
+```
+
+start and stop :
+
+
+```
+docker-compose up -d 
+docker-compose --volume # --volume is to remove db data volume.
+```
 You need:
 
 * A local postgres instance
